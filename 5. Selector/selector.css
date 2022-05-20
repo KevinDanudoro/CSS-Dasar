@@ -1,0 +1,49 @@
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+h1, h2{     /* CSS lakukan pengaturan tampilan di bawah ini untuk kedua tag berikut */
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(202, 5, 5);
+    text-decoration: underline;
+}
+
+h2{
+    font-size: 20px;
+}
+
+ul li a{    /* CSS carikan tag 'a' yang ada di dalam tag 'li' dan 'ul' */
+    color: rgb(12, 124, 8);
+}
+
+ol li a{    /* CSS carikan tag 'a' yang ada di dalam tag 'li' dan 'ol' */
+    color: rgb(88, 63, 156);
+}
+
+a{      
+    color: rgb(243, 0, 190);
+    text-decoration: none;
+}
+
+#p1{    /* CSS carikan saya tag dengan id p1 */
+    text-indent: 50px;
+    color: rgb(255, 130, 13);
+}
+
+.cetak-tebal{
+    font-weight: bold;
+}
+
+.p2{     /* CSS carikan saya tag dengan class p2 */
+    color: green;
+    text-indent: 30px;
+}
+
+.p2.cetak-tebal{    /* CSS carikan saya tag dengan class p2 dan cetak-tebal*/
+    text-indent: 30px;
+    color: red;
+}

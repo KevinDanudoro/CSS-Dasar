@@ -1,0 +1,25 @@
+/* Background CSS */
+
+/* 
+1. background-color     => Mengatur warna pada BG
+2. background-image     => Mengatur gambar yang digunakan sebagai BG
+3. background-position  => Mengatur posisi gambar pada BG (top/bottom/center dan left/center/right)
+4. background-repeat    => Mengatur jenis pengulangan gambar pada BG  
+*/
+
+/* Cari background pola dari subtlepatterns */
+
+body{
+    background-color: lightblue;
+    /* background-image: url(img/background3.png); */
+    /* background-repeat: repeat-x; CSS mengulang gambar di website agar memenuhi sisi kanan dan kiri */
+    /* background-repeat: repeat-y;  CSS mengulang gambar di website agar memenuhi sisi atas dan */
+    
+    background-image: url(img/background5.png);
+    background-repeat: no-repeat;  /* Ukuran gambar background sesuai dengan resolusi gambar tersebut */
+    background-position: top right; /* Dengan menggunakan no-repeat maka bisa menggunakan */
+}
+
+h1{
+    color: rgb(5, 23, 39);
+}

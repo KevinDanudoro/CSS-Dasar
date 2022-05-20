@@ -1,0 +1,29 @@
+/* Specificiity */
+
+/* 
+Elemen pada HTML memiliki berat tersendiri yang mana menentukan prioritas pada CSS.
+Kita misalkan ada 4 digit 0  ( 0      0      0      0 )
+                            inline   id   class  elemen 
+*/
+
+ul#makanan li{          /* ul#makanan li = 2 elemen + 1 id  => 102 */
+    color: green;
+}
+
+.favorit{               /* .favorit = 1 class   => 10 */
+    color: red;
+}
+
+/* 
+Karena berat dari elemen ul#makanan li lebih berat maka setiap li pada ul dengan id makanan
+akan berubah menjadi hijau tanpa terkecuali.
+
+===========================================================================================================
+
+Untuk mengatasinya dibutuhkan pemanggilan elemen .favorit yang lebih berat(spesifik) agar dapat
+mengubah li dengan class favorit menjadi warna yang diinginkan.
+*/
+
+ul#makanan li.favorit {  /* ul#makanan li.favorit  = 2 elemen + 1 id + 1 class  => 112 */
+    color: blue;
+}

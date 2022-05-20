@@ -1,0 +1,36 @@
+/* Text Styling pada CSS */
+/* Website HTML dan CSS editor rekomend: codepen */
+
+/* 
+color               => Memberikan warna pada teks
+text-align          => Mengatur format paragraf/teks (left, right, center, justify)
+text-indent         => Memberi identasi pada paragraf/teks (Memberi spasi pada awal paragraf)
+text-decoration     => Mengatur dekorasi pada teks (none, underline overline, line-through)
+text-transform      => Mengubah huruf menjadi huruf besar, kecil, kapital (none, lowercase, uppercase, capitalize)
+letter-spacing      => Mengatur spasi antar huruf
+word-spacing        => Mengatur spasi antar kata
+*/
+
+
+
+h2{
+    color: skyblue;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 40px;  /* Ini adalah font style*/
+    text-transform: uppercase;
+}
+
+p{
+    color: rgb(177, 130, 11);
+    text-decoration: underline green;
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 40px;
+    word-spacing: 5px;
+    line-height: 1cm;  /* Ini adalah font style*/
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,22 @@
+/* Font Styling pada CSS */
+
+/* 
+1. font-familiy     => Mengatur jenis font yang digunakan (arial, calibri, dll)
+2. font-size        => Mengatur ukuran huruf (px, %, em)
+3. font-weight      => Mengatur ketebalan huruf (lighter, normal, 100-900, bold, bolder)
+4. font-variant     => Mengubah font menjadi small caps 
+5. font-style       => Mengubah font menjadi cetak miring (italic)
+6. line-heigt       => Mengatur spasi antar baris (normal, px, em, cm)
+*/
+
+h2{
+    font-weight: 800;
+    font-size: 50px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1cm;
+}
+

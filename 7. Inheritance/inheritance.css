@@ -1,0 +1,24 @@
+/* Inheritance / Pewarisan */
+
+/*
+
+Properti Yang Diwariskan: 
+1. color                6. text-align
+2. font                 7. text-indent
+3. letter-space         8. text-transform
+4. line-height          9. visibility
+5. list-style           10. white-space
+
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(88, 88, 88);
+}
+
+/* 
+Setelah dilakukan perubahan warna, hanya tulisan pada tag a saja yang tidak berubah.
+Hal ini terjadi karena tag a tidak mewarisi atribut color dari parent nya.
+*/
+
+a{ color: inherit; }    /* Maksud dari inherit adalah warna font dari tag a akan mengikuti parentnya. */

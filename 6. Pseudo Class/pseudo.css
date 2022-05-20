@@ -1,0 +1,64 @@
+.hello:link{    /* CSS ubah warna tag a dengan class hello saat tombol masih belum mendapat interkasi apapun*/
+    color: green;
+}
+
+.hello:hover{   /* CSS ubah tamplilan tag a dengan class hello saat tombol sedang disorot kursor*/
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hello:active{  /* CSS ubah tampilan tag a dengan class hello saat tombol di-klik*/
+    font-weight: bold;
+}
+
+.hello:visited{ /* CSS ubah warna tag a dengan class hello saat tombol sudah pernah di-klik*/
+    color: red;
+}
+
+
+
+li:first-child a{   /* CSS carikan saya tag li yang merupakan anak pertama suatu tag, kemudian ubah warna tag a didalamnya */
+    color: blue;
+}
+
+li:last-child a{    /* CSS carikan saya tag li yang merupakan anak terakhir suatu tag, kemudian ubah warna tag a didalamnya */
+    color: rgb(226, 226, 0);
+}
+
+li:nth-child(5) a{  /* CSS carikan saya tag li yang merupakan anak ke-n suatu tag, kemudian ubah warna tag a didalamnya */
+    color: rgb(3, 180, 17);
+}
+
+li:nth-child(3n) a{  /* CSS carikan saya tag li yang merupakan anak kelipatan-n dari suatu tag, kemudian ubah warna tag a didalamnya */
+    color: rgb(255, 0, 140);
+}
+
+
+li:nth-child(4n-3) a{  /* CSS carikan saya tag li yang merupakan anak kelipatan-n dari suatu tag dimulai dari 1, kemudian ubah warna tag a didalamnya */
+    color: rgb(0, 238, 255);
+}
+li:nth-child(4n-3) a:hover{ 
+    color: rgb(153, 91, 10);
+}
+
+
+/* :nth-child(parameter)    =>  parameter dapat diisi berbagai macam (odd/ganjil, even/genap) */
+
+
+
+p:first-of-type{    /* CSS carikan tag p urutan pertama */
+    color: purple;
+}
+
+p:last-of-type{     /* CSS carikan tag p urutan terakhir */
+    color: blue;
+}
+
+
+/* :target pseudo class */
+.paragraf1:target{
+    background-color: lightgreen;
+}
+.paragraf2:target{
+    background-color: lightblue;
+}

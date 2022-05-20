@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
+
+/* deklarasi variabel */
+:root{
+  --text-color: #333;
+  --container-bg: lightblue;
+  --bg-color: white;
+  --heading-color: #333;
+
+  --box-padding: 0;
+  --box-color: salmon;
+}
+
+/* saat data theme pada html bernilai dark maka.... */
+html[data-theme='dark']{
+  --text-color: white;
+  --container-bg: #555;
+  --bg-color: #333;
+  --heading-color: lightblue;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Nunito, sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: var(--container-bg);
+  padding: 2em;
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6rem;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0.6em;
+  line-height: 0.6;
+  color: var(--heading-color);
+}
+
+h1 span{
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+button{
+  display: block;
+  margin: 50px auto 0 ;
+}
+
+.box{
+  width: 20px;
+  height: 20px;
+  background-color: var(--box-color);
+  margin: auto;
+  padding: var(--box-padding);
+}
